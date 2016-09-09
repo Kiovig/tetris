@@ -2,6 +2,7 @@
  * Created by Vigi on 04/09/2016.
  */
 package com.kio.kiov;
+
 public class User
 {
     private Integer userId;
@@ -12,14 +13,11 @@ public class User
 
     @Override
     public String toString() {
-        return "User [userId=" + userId + ", emailId=" + emailId
-                + ", password=" + password + ", firstName=" + firstName
+        return "User [userId=" + userId + ", emailId=" + emailId + ", password=" + password + ", firstName=" + firstName
                 + ", lastName=" + lastName + "]";
     }
     //setters and getters
-    public Integer getUserId() {
-        return userId;
-    }
+    public Integer getUserId() { return userId; }
     public void setUserId(Integer userId) {
         this.userId = userId;
     }
