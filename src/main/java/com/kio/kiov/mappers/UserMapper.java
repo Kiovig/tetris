@@ -5,7 +5,7 @@ import com.kio.kiov.User;
 
 public interface UserMapper
 {
-    public void insertUser(User user);
+    void insertUser(User user);
 
     public User getUserById(Integer userId);
 

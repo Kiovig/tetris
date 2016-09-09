@@ -19,6 +19,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource='com/kio/kiov/mappers/UserMapper.xml'/>
+        <mapper resource='UserMapper.xml'/>
     </mappers>
 </configuration>

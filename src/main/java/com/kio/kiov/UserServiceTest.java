@@ -32,7 +32,7 @@ public class UserServiceTest
     @Test
     public void testGetUserById()
     {
-        User user = userService.getUserById(1);
+        User user = userService.getUserById(2);
         Assert.assertNotNull(user);
         System.out.println(user);
     }
@@ -53,9 +53,9 @@ public class UserServiceTest
     public void testInsertUser()
     {
         User user = new User();
-        user.setEmailId("test_email_" + System.currentTimeMillis() + "@gmail.com");
-        user.setPassword("secret");
-        user.setFirstName("TestFirstName");
+        user.setEmailId("test_email_2" + System.currentTimeMillis() + "@gmail.com");
+        user.setPassword("secret2");
+        user.setFirstName("Second");
         user.setLastName("TestLastName");
 
         userService.insertUser(user);
